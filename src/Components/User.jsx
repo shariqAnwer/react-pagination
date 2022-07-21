@@ -4,7 +4,8 @@ const User = ({ user }) => {
   //   console.log(user);
   return (
     <div>
-      <h3>{`Full Name: ${user.name.first} ${user.name.last}`}</h3>
+      <h5>{`Full Name: ${user.name.first} ${user.name.last}`}</h5>
+      <h5>{`Mobile No: ${user.phone}`}</h5>
       <hr />
     </div>
   );
